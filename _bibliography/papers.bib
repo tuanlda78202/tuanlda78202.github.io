@@ -1,0 +1,180 @@
+@article{nguyen2022hsw,
+abbr = {Preprint},
+  title={Hierarchical Sliced Wasserstein Distance},
+  author={Khai Nguyen and Tongzheng Ren and Huy Nguyen and Litu Rout and Tan Nguyen and Nhat Ho},
+  journal={arXiv preprint arXiv:2209.13570},
+  year={2022},
+  selected = {true},
+  pdf={https://arxiv.org/pdf/2209.13570.pdf},
+  code={https://github.com/UT-Austin-Data-Science-Group/HSW},
+  abstract={Sliced Wasserstein (SW) distance has been widely used in different application scenarios since it can be scaled to a large number of supports without suffering from the curse of dimensionality. The value of sliced Wasserstein distance is the average of transportation cost between one-dimensional representations (projections) of original measures that are obtained by Radon Transform (RT). Despite its efficiency in the number of supports, estimating the sliced Wasserstein requires a relatively large number of projections in high-dimensional settings. Therefore, for applications where the number of supports is relatively small compared with the dimension, e.g., several deep learning applications where the mini-batch approaches are utilized, the complexities from matrix multiplication of Radon Transform become the main computational bottleneck. To address this issue, we propose to derive projections by linearly and randomly combining a smaller number of projections which are named bottleneck projections. We explain the usage of these projections by introducing Hierarchical Radon Transform (HRT) which is constructed by applying Radon Transform variants recursively. We then formulate the approach into a new metric between measures, named Hierarchical Sliced Wasserstein (HSW) distance. By proving the injectivity of HRT, we derive the metricity of HSW. Moreover, we investigate the theoretical properties of HSW including its connection to SW variants and its computational and sample complexities. Finally, we compare the computational cost and generative quality of HSW with the conventional SW on the task of deep generative modeling using various benchmark datasets including CIFAR10, CelebA, and Tiny ImageNet.}
+  }
+
+
+@article{nguyen2022revisiting,
+abbr = {NeurIPS},
+  title={Revisiting Sliced Wasserstein on Images: From Vectorization to Convolution},
+  author={Khai Nguyen and Nhat Ho},
+  journal={Advances in Neural Information Processing Systems},
+  year={2022},
+  selected = {true},
+  published={true},
+  pdf={https://arxiv.org/pdf/2204.01188.pdf},
+  code={https://github.com/UT-Austin-Data-Science-Group/CSW},
+  abstract={The conventional sliced Wasserstein is defined between two probability measures that have realizations as vectors. When comparing two probability measures over images, practitioners first need to vectorize images and then project them to one-dimensional space by using matrix multiplication between the sample matrix and the projection matrix. After that, the sliced Wasserstein is evaluated by averaging the two corresponding one-dimensional projected probability measures. However, this approach has two limitations. The first limitation is that the spatial structure of images is not captured efficiently by the vectorization step; therefore, the later slicing process becomes harder to gather the discrepancy information. The second limitation is memory inefficiency since each slicing direction is a vector that has the same dimension as the images. To address these limitations, we propose novel slicing methods for sliced Wasserstein between probability measures over images that are based on the convolution operators. We derive convolution sliced Wasserstein (CSW) and its variants via incorporating stride, dilation, and non-linear activation function into the convolution operators. We investigate the metricity of CSW as well as its sample complexity, its computational complexity, and its connection to conventional sliced Wasserstein distances. Finally, we demonstrate the favorable performance of CSW over the conventional sliced Wasserstein in comparing probability measures over images and in training deep generative modeling on images.}
+  }
+
+@article{nguyen2022amortized,
+abbr = {NeurIPS},
+  title={Amortized Projection Optimization for Sliced Wasserstein Generative Models},
+  author={Khai Nguyen and Nhat Ho},
+  journal={Advances in Neural Information Processing Systems},
+  year={2022},
+  selected = {true},
+  published={true},
+  pdf={https://arxiv.org/pdf/2203.13417.pdf},
+  code={https://github.com/UT-Austin-Data-Science-Group/AmortizedSW},
+  abstract={The conventional sliced Wasserstein is defined between two probability measures that have realizations as vectors. When comparing two probability measures over images, practitioners first need to vectorize images and then project them to one-dimensional space by using matrix multiplication between the sample matrix and the projection matrix. After that, the sliced Wasserstein is evaluated by averaging the two corresponding one-dimensional projected probability measures. However, this approach has two limitations. The first limitation is that the spatial structure of images is not captured efficiently by the vectorization step; therefore, the later slicing process becomes harder to gather the discrepancy information. The second limitation is memory inefficiency since each slicing direction is a vector that has the same dimension as the images. To address these limitations, we propose novel slicing methods for sliced Wasserstein between probability measures over images that are based on the convolution operators. We derive convolution sliced Wasserstein (CSW) and its variants via incorporating stride, dilation, and non-linear activation function into the convolution operators. We investigate the metricity of CSW as well as its sample complexity, its computational complexity, and its connection to conventional sliced Wasserstein distances. Finally, we demonstrate the favorable performance of CSW over the conventional sliced Wasserstein in comparing probability measures over images and in training deep generative modeling on images.}
+}
+
+
+@article{nguyen2022transformer,
+abbr = {NeurIPS},
+  title={Transformer with Fourier Integral Attentions},
+  author={Tan Nguyen and Minh Pham and Tam Nguyen and Khai Nguyen and Stanley J Osher and Nhat Ho},
+  journal={Advances in Neural Information Processing Systems},
+  year={2022},
+  published={true},
+  pdf={https://arxiv.org/pdf/2206.00206.pdf},
+  abstract={Multi-head attention empowers the recent success of transformers, the state-of-the-art models that have achieved remarkable success in sequence modeling and beyond. These attention mechanisms compute the pairwise dot products between the queries and keys, which results from the use of unnormalized Gaussian kernels with the assumption that the queries follow a mixture of Gaussian distribution. There is no guarantee that this assumption is valid in practice. In response, we first interpret attention in transformers as a nonparametric kernel regression. We then propose the FourierFormer, a new class of transformers in which the dot-product kernels are replaced by the novel generalized Fourier integral kernels. Different from the dot-product kernels, where we need to choose a good covariance matrix to capture the dependency of the features of data, the generalized Fourier integral kernels can automatically capture such dependency and remove the need to tune the covariance matrix. We theoretically prove that our proposed Fourier integral kernels can efficiently approximate any key and query distributions. Compared to the conventional transformers with dot-product attention, FourierFormers attain better accuracy and reduce the redundancy between attention heads. We empirically corroborate the advantages of FourierFormers over the baseline transformers in a variety of practical applications including language modeling and image classification.}
+}
+
+
+@article{nguyen2022mix,
+abbr = {NeurIPS},
+  title={Improving Transformer with an Admixture of Attention Heads},
+  author={Tan Nguyen and Tam Nguyen and Hai Do and Khai Nguyen and Vishwanath Saragadam and Minh Pham and Khuong Nguyen and Nhat Ho and Stanley J Osher},
+  journal={Advances in Neural Information Processing Systems},
+  year={2022},
+  published={true},
+  abstract={Multi-head attention empowers the recent success of transformers, the state-of-the-art models that have achieved remarkable success in sequence modeling and beyond. These attention mechanisms compute the pairwise dot products between the queries and keys, which results from the use of unnormalized Gaussian kernels with the assumption that the queries follow a mixture of Gaussian distribution. There is no guarantee that this assumption is valid in practice. In response, we first interpret attention in transformers as a nonparametric kernel regression. We then propose the FourierFormer, a new class of transformers in which the dot-product kernels are replaced by the novel generalized Fourier integral kernels. Different from the dot-product kernels, where we need to choose a good covariance matrix to capture the dependency of the features of data, the generalized Fourier integral kernels can automatically capture such dependency and remove the need to tune the covariance matrix. We theoretically prove that our proposed Fourier integral kernels can efficiently approximate any key and query distributions. Compared to the conventional transformers with dot-product attention, FourierFormers attain better accuracy and reduce the redundancy between attention heads. We empirically corroborate the advantages of FourierFormers over the baseline transformers in a variety of practical applications including language modeling and image classification.}
+}
+
+@InProceedings{pmlr-v162-nguyen22e,
+abbr = {ICML},
+  title = 	 {Improving Mini-batch Optimal Transport via Partial Transportation},
+  author =       {Khai Nguyen and Dang Nguyen and The-Anh Vu Le and Tung Pham and Nhat Ho},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {16656--16690},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/nguyen22e/nguyen22e.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/nguyen22e.html},
+  selected = {true},
+  published={true},
+  code={https://github.com/UT-Austin-Data-Science-Group/Mini-batch-OT},
+  abstract=	 {Mini-batch optimal transport (m-OT) has been widely used recently to deal with the memory issue of OT in large-scale applications. Despite their practicality, m-OT suffers from misspecified mappings, namely, mappings that are optimal on the mini-batch level but are partially wrong in the comparison with the optimal transportation plan between the original measures. Motivated by the misspecified mappings issue, we propose a novel mini-batch method by using partial optimal transport (POT) between mini-batch empirical measures, which we refer to as mini-batch partial optimal transport (m-POT). Leveraging the insight from the partial transportation, we explain the source of misspecified mappings from the m-OT and motivate why limiting the amount of transported masses among mini-batches via POT can alleviate the incorrect mappings. Finally, we carry out extensive experiments on various applications such as deep domain adaptation, partial domain adaptation, deep generative model, color transfer, and gradient flow to demonstrate the favorable performance of m-POT compared to current mini-batch methods.}
+  }
+
+
+
+@InProceedings{pmlr-v162-nguyen22d,
+abbr = {ICML},
+  title = 	 {On Transportation of Mini-batches: A Hierarchical Approach},
+  author =       {Khai Nguyen and Dang Nguyen and Quoc Nguyen and Tung Pham and Hung Bui and Dinh Phung and Trung Le and Nhat Ho},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {16622--16655},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/nguyen22d/nguyen22d.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/nguyen22d.html},
+  selected = {true},
+  published={true},
+  code={https://github.com/UT-Austin-Data-Science-Group/Mini-batch-OT},
+  abstract = 	{Mini-batch optimal transport (m-OT) has been successfully used in practical applications that involve probability measures with a very high number of supports. The m-OT solves several smaller optimal transport problems and then returns the average of their costs and transportation plans. Despite its scalability advantage, the m-OT does not consider the relationship between mini-batches which leads to undesirable estimation. Moreover, the m-OT does not approximate a proper metric between probability measures since the identity property is not satisfied. To address these problems, we propose a novel mini-batch scheme for optimal transport, named Batch of Mini-batches Optimal Transport (BoMb-OT), that finds the optimal coupling between mini-batches and it can be seen as an approximation to a well-defined distance on the space of probability measures. Furthermore, we show that the m-OT is a limit of the entropic regularized version of the BoMb-OT when the regularized parameter goes to infinity. Finally, we carry out experiments on various applications including deep generative models, deep domain adaptation, approximate Bayesian computation, color transfer, and gradient flow to show that the BoMb-OT can be widely applied and performs well in various applications.}
+}
+
+
+
+
+@InProceedings{pmlr-v151-le22a,
+abbr = {AISTATS},
+  title = 	 { On Multimarginal Partial Optimal Transport: Equivalent Forms and Computational Complexity },
+  author =       {Khang Le and Huy Nguyen and Khai Nguyen and Tung Pham and Nhat Ho},
+  booktitle = 	 {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {4397--4413},
+  year = 	 {2022},
+  editor = 	 {Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel},
+  volume = 	 {151},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {28--30 Mar},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v151/le22a/le22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v151/le22a.html},
+  published={true}
+}
+
+
+
+@inproceedings{
+nguyen2021distributional,
+abbr = {ICLR},
+title={Distributional Sliced-Wasserstein and Applications to Generative Modeling},
+author={Khai Nguyen and Nhat Ho and Tung Pham and Hung Bui},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/pdf?id=QYjO70ACDK},
+selected = {true},
+published={true},
+abstract={Sliced-Wasserstein distance (SW) and its variant, Max Sliced-Wasserstein distance (Max-SW), have been used widely in the recent years due to their fast computation and scalability even when the probability measures lie in a very high dimensional space. However, SW requires many unnecessary projection samples to approximate its value while Max-SW only uses the most important projection, which ignores the information of other useful directions. In order to account for these weaknesses, we propose a novel distance, named Distributional Sliced-Wasserstein distance (DSW), that finds an optimal distribution over projections that can balance between exploring distinctive projecting directions and the informativeness of projections themselves. We show that the DSW is a generalization of Max-SW, and it can be computed efficiently by searching for the optimal push-forward measure over a set of probability measures over the unit sphere satisfying certain regularizing constraints that favor distinct directions. Finally, we conduct extensive experiments with large-scale datasets to demonstrate the favorable performances of the proposed distances over the previous sliced-based distances in generative modeling applications.},
+code={https://github.com/VinAIResearch/DSW},
+pdf={https://openreview.net/pdf?id=QYjO70ACDK}
+}
+
+@inproceedings{
+nguyen2021improving,
+abbr = {ICLR},
+title={Improving Relational Regularized Autoencoders with Spherical Sliced Fused Gromov Wasserstein},
+author={Khai Nguyen and Son Nguyen and Nhat Ho and Tung Pham and Hung Bui},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=DiQD7FWL233},
+selected = {true},
+published={true},
+award={Spotlight (3%)},
+pdf={https://openreview.net/pdf?id=DiQD7FWL233},
+abstract={Relational regularized autoencoder (RAE) is a framework to learn the distribution of data by minimizing a reconstruction loss together with a relational regularization on the prior of latent space. A recent attempt to reduce the inner discrepancy between the prior and aggregated posterior distributions is to incorporate sliced fused Gromov-Wasserstein (SFG) between these distributions. That approach has a weakness since it treats every slicing direction similarly, meanwhile several directions are not useful for the discriminative task. To improve the discrepancy and consequently the relational regularization, we propose a new relational discrepancy, named spherical sliced fused Gromov Wasserstein (SSFG), that can find an important area of projections characterized by a von Mises-Fisher distribution. Then, we introduce two variants of SSFG to improve its performance. The first variant, named mixture spherical sliced fused Gromov Wasserstein (MSSFG), replaces the vMF distribution by a mixture of von Mises-Fisher distributions to capture multiple important areas of directions that are far from each other. The second variant, named power spherical sliced fused Gromov Wasserstein (PSSFG), replaces the vMF distribution by a power spherical distribution to improve the sampling time of the vMF distribution in high dimension settings. We then apply the new discrepancies to the RAE framework to achieve its new variants. Finally, we conduct extensive experiments to show that the new autoencoders have favorable performance in learning latent manifold structure, image generation, and reconstruction.}
+}
+
+@article{nguyen2021structured,
+abbr = {NeurIPS},
+  title={Structured Dropout Variational Inference for Bayesian Neural Networks},
+  author={Son Nguyen and Duong Nguyen and Khai Nguyen and Khoat Than and Hung Bui and Nhat Ho},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={15188--15202},
+  year={2021},
+  published={true},
+  pdf={https://proceedings.NeurIPS.cc/paper/2021/file/80a160ff31266be2f93012a2a3eca713-Paper.pdf},
+  abstract={Approximate inference in Bayesian deep networks exhibits a dilemma of how to yield high fidelity posterior approximations while maintaining computational efficiency and scalability. We tackle this challenge by introducing a novel variational structured approximation inspired by the Bayesian interpretation of Dropout regularization. Concretely, we focus on the inflexibility of the factorized structure in Dropout posterior and then propose an improved method called Variational Structured Dropout (VSD). VSD employs an orthogonal transformation to learn a structured representation on the variational Gaussian noise with plausible complexity, and consequently induces statistical dependencies in the approximate posterior. Theoretically, VSD successfully addresses the pathologies of previous Variational Dropout methods and thus offers a standard Bayesian justification. We further show that VSD induces an adaptive regularization term with several desirable properties which contribute to better generalization. Finally, we conduct extensive experiments on standard benchmarks to demonstrate the effectiveness of VSD over state-of-the-art variational methods on predictive accuracy, uncertainty estimation, and out-of-distribution detection.}
+}
+
+
+@article{nguyen2021model,
+abbr = {Preprint},
+  title={Model Fusion of Heterogeneous Neural Networks via Cross-Layer Alignment},
+  author={Dang Nguyen and Khai Nguyen and Dinh Phung and Hung Bui and Nhat Ho},
+  journal={arXiv preprint arXiv:2110.15538},
+  year={2021},
+  pdf={https://arxiv.org/pdf/2110.15538.pdf},
+  abstract={Layer-wise model fusion via optimal transport, named OTFusion, applies soft neuron association for unifying different pre-trained networks to save computational resources. While enjoying its success, OTFusion requires the input networks to have the same number of layers. To address this issue, we propose a novel model fusion framework, named CLAFusion, to fuse neural networks with a different number of layers, which we refer to as heterogeneous neural networks, via cross-layer alignment. The cross-layer alignment problem, which is an unbalanced assignment problem, can be solved efficiently using dynamic programming. Based on the cross-layer alignment, our framework balances the number of layers of neural networks before applying layer-wise model fusion. Our experiments indicate that CLAFusion, with an extra finetuning process, improves the accuracy of residual networks on CIFAR10 and CIFAR100 datasets. Furthermore, we explore its practical usage for model compression and knowledge distillation when applying to the teacher-student setting.}
+}
+

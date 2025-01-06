@@ -1,0 +1,98 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Le Duc Anh Tuan
+    - name: Languages
+      value: English, Vietnamese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: BSc. in Data Science and Artificial Intelligence
+      institution: Hanoi University of Science and Technology, Hanoi, Vietnam
+      year: Oct. 2020 - Sep. 2024
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: LLM Researcher
+      institution: Homebrew Research, Singapore, Singapore
+      year: Nov. 2024 - Present
+      description:
+        - Trained <a href="https://github.com/janhq/WhisperSpeech/tree/main/ichigo-whisper">Speech Tokenizer</a> to support multiple Asian languages, achieving <a href="https://www.facebook.com/share/p/1AijuzrEXo/">SOTA results</a> on viVoice and LibriTTS-R.
+
+    - title: Digital Talent
+      institution: Viettel Group, Hanoi, Vietnam
+      year: Apr. 2024 - Nov. 2024
+      description:
+        - Developed a real-time, end-to-end "zero-touch" universal AI assistant with a multi-agent system, multimodal capabilities, intent understanding, and personalized responses, creating Vietnam's first multimodal Conversational Recommendation System, and ranked 1st in the DSAI track of Viettel Digital Talent 2024
+
+    - title: Organizer
+      institution: Google Developer Groups, Hanoi, Vietnam
+      year: Sep. 2022 - Aug. 2024
+      description:
+        - Planned and created project blueprints, delegated tasks to individuals, connected teams, and provided future operational guidance, <a href="https://drive.google.com/file/d/1wRyXDH3vbakH1dkueh88lQVuRn85nwjU/view">certified</a> by Google's Global Headquarters
+
+    - title: Applied Scientist
+      institution: VinBrain (NVIDIA), Hanoi, Vietnam
+      year: Sep. 2023 - Dec. 2023
+      description:
+        - Developed MedNeXt for rectal cancer diagnosis and treatment support
+
+    - title: Research Assistant
+      institution: Data Science Laboratory, HUST, Vietnam
+      year: Jan. 2022 - Sep. 2023
+      description:
+        - Researched class-specific prompt rehearsal-free in continual object detection
+
+    - title: Computer Vision Researcher
+      institution: Viettel High Tech, Hanoi, Vietnam
+      year: Mar. 2023 - Aug. 2023
+      description:
+        - Researched INRs for videos, resolved temporal information problem in previous NeRV-based methods, achieved SOTA results for video reconstruction and compression tasks
+
+    - title: Head of Event & PR Team
+      institution: Google Developer Students Club, HUST, Vietnam
+      year: Sep. 2022 - Sep. 2023
+
+    - title: <a href="https://drive.google.com/file/d/1KCzH6j3W12mHHMrYA_0QIHZYRVflnRTA/view">Machine Learning Researcher</a>
+      institution: LEAN Platform, Southeast Asia
+      year: Aug. 2022 - Jan. 2023
+      description:
+        - Developed real-time Conv3D model for concentration recognition in online self-learning platform with 10000 users
+
+- title: <a href="https://github.com/tuanlda78202/">Projects</a>
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/tuanlda78202/geminio">Bong</a>
+      year: 2024
+      description:
+        - Developed a real-time VLM web application showcased at Google I/O Extended Hanoi 2024, featuring speech-to-speech, multimodal integration for Vietnamese, and RAG for live updates
+
+    - title: <a href="https://github.com/tuanlda78202/google-io">Google I/O Extended Hanoi Website</a>
+      year: 2023
+      description:
+        - Designed front-end client and admin websites, deployed hosting, and tracked event emails
+
+    - title: Detect Cheating in Examination</a>
+      year: 2022
+      description:
+        - Researched and deployed real-time cheating detection solution using Pose3D and VideoMAE for 100-person exam rooms; featured on <a href="https://www.facebook.com/tintucvtv24/videos/772744667380774">VTV24</a>, <a href="https://dantri.com.vn/giao-duc/phan-mem-chong-gian-lan-thi-cu-duoc-nhom-sinh-vien-thu-nghiem-thanh-cong-20220906211003512.htm">DanTri</a>, <a href="https://hust.edu.vn/vi/news/tin-tuc-su-kien/phan-mem-chong-gian-lan-thi-cu-duoc-nhom-sinh-vien-thu-nghiem-thanh-cong-648900.html">HUST</a>, etc
+
+- title: Skills
+  type: list
+  contents:
+    - <b> Research Topics:</b> Multimodal LLMs, Multi-agent System
+    - <b> Programming Language:</b> Python, SQL, Java, C++, CUDA, TypeScripts, Javascripts, Triton
+    - <b> Framework:</b> PyTorch, TensorFlow, Hugging Face, ONXX
+    - <b> MLOps:</b> GitHub, WandB, Docker, Kubernetes, MLflow, Airflow, Langchain, LangGraph, Weaviate, FastAPI
+
+- title: Volunteering
+  type: list
+  contents:
+    - <u> Google Developer Group Hanoi:</u> Speaker presents "Detecting Cheating in Examinations" at DevFest 2022
+    - <u> SheCodes Vietnam:</u> AI Mentor of SheCodes Hackathon Hanoi 2023
+    - <u> Nestle:</u> Ambassador of MT SparkTheNext Leaders Program 2023, 2024
+    - <u> AIESEC:</u> Representative of Mini Leadership Conference 2022
+    - <u> VinAI Research:</u> Technical Collaborator at AI Day 2022
