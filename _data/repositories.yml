@@ -3,8 +3,8 @@ github_users:
 
 github_repos:
   - tuanlda78202/MLR
-  - tuanlda78202/DSLT
   - tuanlda78202/cod
+  - tuanlda78202/cuda-docker
   - tuanlda78202/nvim
   - menloresearch/ichigo
   - WhisperSpeech/WhisperSpeech
