@@ -18,12 +18,12 @@
   contents:
     - title: LLM Researcher
       institution: Homebrew Research, Singapore, Singapore
-      year: Nov. 2024 - Mar. 2025
+      year: Nov. 2024 - Apr. 2025
       description:
         - Trained <a href="https://github.com/janhq/WhisperSpeech/tree/main/ichigo-whisper">Speech Tokenizer</a> to support multiple Asian languages, achieving <a href="https://www.facebook.com/share/p/1AijuzrEXo/">SOTA results</a> on viVoice and LibriTTS-R
         - Developed Speech Instruction Training Without Speech for Low-Resource Languages
 
-    - title: Digital Talent
+    - title: Data Scientist
       institution: Viettel Group, Hanoi, Vietnam
       year: Apr. 2024 - Nov. 2024
       description:
@@ -84,10 +84,10 @@
 - title: Skills
   type: list
   contents:
-    - <b> Research Topics:</b> Multimodal LLMs, Multi-agent System
-    - <b> Programming Language:</b> Python, SQL, Java, C++, CUDA, TypeScripts, Javascripts, Triton
-    - <b> Framework:</b> PyTorch, TensorFlow, Hugging Face, ONXX
-    - <b> MLOps:</b> GitHub, WandB, Docker, Kubernetes, MLflow, Airflow, Langchain, LangGraph, Weaviate, FastAPI
+    - <b> Areas of Interest:</b> Multimodal/Reasoning LLMs, Multi-agent Systems, LLM Systems
+    - <b> Programming Language:</b> Python, C++, CUDA, Triton, TypeScripts, Java, Javascripts, SQL
+    - <b> MLOps:</b> Docker, Kubernetes, MLflow, Airflow, Langchain, Weaviate, WandB
+    - <b> Framework:</b> PyTorch, TensorFlow, Hugging Face, vLLM, SGLang, LlamaFactory, ONXX
 
 - title: Volunteering
   type: list
