@@ -11,7 +11,7 @@
   contents:
     - title: BSc. in Data Science and Artificial Intelligence
       institution: Hanoi University of Science and Technology, Hanoi, Vietnam
-      year: Oct. 2020 - Sep. 2024
+      year: Oct. 2020 - Aug. 2024
 
 - title: Experience
   type: time_table
@@ -49,7 +49,7 @@
 
     - title: Computer Vision Researcher
       institution: Viettel High Tech, Hanoi, Vietnam
-      year: Mar. 2023 - Aug. 2023
+      year: Mar. 2023 - Sep. 2023
       description:
         - Researched INRs for videos, resolved temporal information problem in previous NeRV-based methods, achieved SOTA results for video reconstruction and compression tasks
 
@@ -66,7 +66,12 @@
 - title: <a href="https://github.com/tuanlda78202/">Projects</a>
   type: time_table
   contents:
-    - title: <a href="https://github.com/tuanlda78202/geminio">Bong</a>
+    - title: Notes Assistant</a>
+      year: 2025
+      description:
+        - Architected a production-ready LLMOps multi-agent system with hybrid search RAG, managed by an orchestrator with observability inference, supporting local LLMs and AWS services
+
+    - title: <a href="https://github.com/tuanlda78202/geminio">Gemini Omni</a>
       year: 2024
       description:
         - Developed a real-time VLM web application showcased at Google I/O Extended Hanoi 2024, featuring speech-to-speech, multimodal integration for Vietnamese, and RAG for live updates
@@ -74,7 +79,7 @@
     - title: <a href="https://github.com/tuanlda78202/google-io">Google I/O Extended Hanoi Website</a>
       year: 2023
       description:
-        - Designed front-end client and admin websites, deployed hosting, and tracked event emails
+        - Designed front-end client and admin back-end websites, deployed hosting, and tracked event emails
 
     - title: Detect Cheating in Examination</a>
       year: 2022
@@ -86,7 +91,7 @@
   contents:
     - <b> Areas of Interest:</b> Multimodal/Reasoning LLMs, Multi-agent Systems, LLM Systems
     - <b> Programming Language:</b> Python, C++, CUDA, Triton, TypeScripts, Java, Javascripts, SQL
-    - <b> MLOps:</b> Docker, Kubernetes, MLflow, Airflow, Langchain, Weaviate, WandB
+    - <b> LLMOps:</b> Docker, Kubernetes, AWS S3/Bedrock/SageMaker, MLflow, Airflow, ZenML, Weaviate, WandB
     - <b> Framework:</b> PyTorch, TensorFlow, Hugging Face, vLLM, SGLang, LlamaFactory, ONXX
 
 - title: Volunteering
