@@ -10,7 +10,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website.
 keywords: tuanlda78202, leducanhtuan, le-duc-anh-tuan, humans-of-hust, tuan-le-duc-anh, hust, gdg-hanoi, gdsc
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/website.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: website.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://tuanlda78202.works # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
