@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Le Duc Anh Tuan
+      value: Le Duc Anh Tuan (Charles)
     - name: Languages
       value: English, Vietnamese
 
@@ -13,21 +13,42 @@
       institution: Hanoi University of Science and Technology, Hanoi, Vietnam
       year: Oct. 2020 - Aug. 2024
 
+- title: Publications
+  type: list
+  contents:
+    - <a Speechless \href{https://arxiv.org/abs/2505.17417}{(Interspeech, 2025)}}
+            {Speech Instruction Training Without Speech for Low Resource Languages
+            }
+    - <a Poseless \href{https://arxiv.org/abs/2503.07111v2}{(CVPR, 2025)}}
+            {Depth-Free Vision-to-Joint Control via Direct Image Mapping with Vision Language Model
+            }
+
 - title: Experience
   type: time_table
   contents:
-    - title: LLM Researcher
-      institution: Homebrew Research, Singapore, Singapore
-      year: Nov. 2024 - Apr. 2025
+    - title: GPU Engineer
+      institution: Moreh, Seoul, South Korea
+      year: May. 2025 - Oct. 2025
       description:
-        - Trained <a href="https://github.com/janhq/WhisperSpeech/tree/main/ichigo-whisper">Speech Tokenizer</a> to support multiple Asian languages, achieving <a href="https://www.facebook.com/share/p/1AijuzrEXo/">SOTA results</a> on viVoice and LibriTTS-R
-        - Developed Speech Instruction Training Without Speech for Low-Resource Languages
+        - Implement a pure <a href="https://github.com/tuanlda78202/gpt-oss-amd">HIP C++ version of OpenAI’s GPT-OSS from scratch</a> (without rocBLAS/hipBLAS); optimize model loading, batching, multi-streaming, multi-GPU communication, CPU–GPU–SRAM memory access, FlashAttention, matrix-core GEMM, MoE load balancing, etc. Achieved 30k TPS (20B) and 10k TPS (120B) on a single node with 8× AMD MI250x GPUs.
+
+    - title: LLM Researcher
+      institution: Menlo Research, Singapore, Singapore
+      year: Nov. 2024 - May. 2025
+      description:
+        - Developed a lightweight <a href="https://huggingface.co/Menlo/Ichigo-whisper-v0.1">Speech Tokenizer</a> (22M) using Residual Vector Quantization, achieving SOTA results on viVoice and LibriSpeech by extending the codebook size to 2048, training a two-phase training process (KL+CE and CE loss), contributing to the open-source <a href="https://github.com/WhisperSpeech/WhisperSpeech/pull/167">WhisperSpeech</a> codebase; outperformed original Whisper and PhoWhisper
+        - Researched the Speechless model, a modified Llama 3.2 1B architecture, to generate synthetic semantic audio representations from multimodal inputs using ASR datasets; paper <a href="https://arxiv.org/abs/2505.17417">accepted at Interspeech 2025 (Rank A)</a>
+        - Modified the Llama tokenizer and performed continual pre-training on semantic tokens from ASR datasets, followed by post-training with mixed raw text, sound-text, and noise sound datasets (filtered by language identification, deduplication, length, and quality) to align with user preferences
+        - Published the package-modularized Ichigo on <a href="https://pypi.org/project/ichigo/">PyPI</a>, supporting an asynchronous API for platform developers and implementing audio chunking with overlapping to support long audio input for ASR
 
     - title: Data Scientist
       institution: Viettel Group, Hanoi, Vietnam
       year: Apr. 2024 - Nov. 2024
       description:
-        - Developed a real-time, end-to-end "zero-touch" universal AI assistant with a multi-agent system, multimodal capabilities, intent understanding, and personalized responses, creating Vietnam's first multimodal Conversational Recommendation System, and ranked 1st in the DSAI track of Viettel Digital Talent 2024
+        - Developed a multi-agent Conversational Recommendation System with multimodal capabilities, supporting vision input and speech-to-speech interaction with end-users
+        - Implemented AdaptiveICL to align with pre-defined expertise plans and designed a synthetic data pipeline for fine-tuning reasoning, SQL query generation, and function calling
+        - Built Retrieval, Ranking, and Query tools for database interaction; implemented a Candidate Bus for item candidate storage and Web Search for external resource integration
+        - Engineered an end-to-end system, including a Docker-wrapped API to bridge Application and Infrastructure layers
 
     - title: Organizer
       institution: Google Developer Groups, Hanoi, Vietnam
@@ -66,15 +87,17 @@
 - title: <a href="https://github.com/tuanlda78202/">Projects</a>
   type: time_table
   contents:
-    - title: Notes Assistant</a>
+    - title: Leo</a>
       year: 2025
       description:
-        - Architected a production-ready LLMOps multi-agent system with hybrid search RAG, managed by an orchestrator with observability inference, supporting local LLMs and AWS services
+        - Architected an LLMOps system for a personal AI assistant; encompassing Data, Feature, Training, Inference, and Observation components, following clean architecture principles
+        - Implemented an offline pipeline that retrieves data from data services and stores on S3; designed an ETL pipeline to crawl links and perform quality filtering; set up a feature generation pipeline for fine-tuning datasets and creating vector embeddings indexed in MongoDB for Hybrid Contextual Retrieval; and established a training pipeline with evaluation and serving model on HF/AWS endpoints, all orchestrated by ZenML
+        - Designed an online pipeline featuring an agentic RAG system, served via API using LiteLLM; utilizes summarization and retrieval tools (powered by fine-tuned LLM endpoints and a vector index database), supports Search MCP server, and incorporates observability components through prompt monitoring and RAG evaluation
 
     - title: <a href="https://github.com/tuanlda78202/geminio">Gemini Omni</a>
       year: 2024
       description:
-        - Developed a real-time VLM web application showcased at Google I/O Extended Hanoi 2024, featuring speech-to-speech, multimodal integration for Vietnamese, and RAG for live updates
+        - Developed a real-time web application showcased at Google I/O Extended Hanoi, featuring speech-to-speech functionality, multimodal integration, and RAG for event updates
 
     - title: <a href="https://github.com/tuanlda78202/google-io">Google I/O Extended Hanoi Website</a>
       year: 2023
@@ -84,13 +107,13 @@
     - title: Detect Cheating in Examination</a>
       year: 2022
       description:
-        - Researched and deployed real-time cheating detection solution using Pose3D and VideoMAE for 100-person exam rooms; featured on <a href="https://www.facebook.com/tintucvtv24/videos/772744667380774">VTV24</a>, <a href="https://dantri.com.vn/giao-duc/phan-mem-chong-gian-lan-thi-cu-duoc-nhom-sinh-vien-thu-nghiem-thanh-cong-20220906211003512.htm">DanTri</a>, <a href="https://hust.edu.vn/vi/news/tin-tuc-su-kien/phan-mem-chong-gian-lan-thi-cu-duoc-nhom-sinh-vien-thu-nghiem-thanh-cong-648900.html">HUST</a>, etc
+        - Researched and deployed real-time cheating detection solution using Pose3D and VideoMAE for 50-person exam rooms; featured on <a href="https://www.facebook.com/tintucvtv24/videos/772744667380774">VTV24</a>, <a href="https://dantri.com.vn/giao-duc/phan-mem-chong-gian-lan-thi-cu-duoc-nhom-sinh-vien-thu-nghiem-thanh-cong-20220906211003512.htm">DanTri</a>, <a href="https://hust.edu.vn/vi/news/tin-tuc-su-kien/phan-mem-chong-gian-lan-thi-cu-duoc-nhom-sinh-vien-thu-nghiem-thanh-cong-648900.html">HUST</a>, etc
 
 - title: Skills
   type: list
   contents:
-    - <b> Areas of Interest:</b> Multimodal/Reasoning LLMs, Multi-agent Systems, LLM Systems
-    - <b> Programming Language:</b> Python, C++, CUDA, Triton, TypeScripts, Java, Javascripts, SQL
+    - <b> Areas of Interest:</b> Multimodal LLMs, Multi-agent Systems, LLM Systems, High Performance Computing
+    - <b> Programming Language:</b> Python, C++, CUDA, HIP, Triton, TypeScripts, Java, Javascripts, SQL
     - <b> LLMOps:</b> Docker, Kubernetes, AWS S3/Bedrock/SageMaker, MLflow, Airflow, ZenML, Weaviate, WandB
     - <b> Framework:</b> PyTorch, TensorFlow, Hugging Face, vLLM, SGLang, LlamaFactory, ONXX
 
@@ -102,3 +125,21 @@
     - <u> Nestle:</u> Ambassador of MT SparkTheNext Leaders Program 2023, 2024
     - <u> AIESEC:</u> Representative of Mini Leadership Conference 2022
     - <u> VinAI Research:</u> Technical Collaborator at AI Day 2022
+
+- title: Achievements
+  type: list
+  contents:
+    - <u>Viettel Digital Talent 2024 (Data Science and Artificial Intelligence):</u> Top 1
+    - <u>Excellent Students Contest in Math 2019 (Provincial Merit Competition):</u> Third Prize
+    - <u>Innovation Lab Asia CrowdPitch:</u> Winner
+    - <u>TechYouth (VinUniversity):</u> Best Incubatee
+    - <u>Cyberport (2nd largest incubator in Hong Kong with 5 unicorns):</u> CCMG Grantee
+    - <u>X-Challenge by VCCorp:</u> Top 1
+    - <u>Prometheus in Digital Transformation by European Union (out of 4000 teams):</u> Top 1
+    - <u>Business Challenge 6 by Vietnam National University:</u> Top 1
+    - <u>Youth Impact Entrepreneurs by PNJ (VN30 Index):</u> Top 5
+    - <u>Hult Prize Asia Summit 2022 (out of 1000 teams):</u> Top 6
+    - <u>University Startup World Cup (out of 5000 teams):</u> Top 20
+    - <u>Moonshot Global (out of 3000 teams):</u> Top 30
+    - <u>XPITCH Global (out of 4000 teams):</u> Top 100
+
