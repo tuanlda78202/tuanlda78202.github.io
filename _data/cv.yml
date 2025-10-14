@@ -16,14 +16,14 @@
 - title: Publications
   type: list
   contents:
-    - <b>Speechless <a href=https://arxiv.org/abs/2505.17417>(Interspeech (A), 2025)</a>:</b> Speech Instruction Training Without Speech for Low Resource Languages
+    - <b>Speechless <a href=https://arxiv.org/abs/2505.17417>(Interspeech (rank A), 2025)</a>:</b> Speech Instruction Training Without Speech for Low Resource Languages
     - <b>Poseless <a href=https://arxiv.org/abs/2503.07111v2>(arXiv, 2025)</a>:</b> Depth-Free Vision-to-Joint Control via Direct Image Mapping with Vision Language Model
 
 - title: Experience
   type: time_table
   contents:
     - title: GPU Engineer
-      institution: Moreh, Seoul, South Korea
+      institution: Moreh Inc, Seoul, South Korea
       year: May. 2025 - Oct. 2025
       description:
         - Implement a pure <a href="https://github.com/tuanlda78202/gpt-oss-amd">HIP C++ version of OpenAI’s GPT-OSS from scratch</a> (without rocBLAS/hipBLAS); optimize model loading, batching, multi-streaming, multi-GPU communication, CPU–GPU–SRAM memory access, FlashAttention, matrix-core GEMM, MoE load balancing, etc. Achieved 30k TPS (20B) and 10k TPS (120B) on a single node with 8× AMD MI250x GPUs.
@@ -68,7 +68,7 @@
       institution: Viettel High Tech, Hanoi, Vietnam
       year: Mar. 2023 - Sep. 2023
       description:
-        - Researched INRs for videos, resolved temporal information problem in previous NeRV-based methods, achieved SOTA results for video reconstruction and compression tasks
+        - Designed the <a href="https://github.com/tuanlda78202/3DNeRV">3DNeRV</a> architecture utilizing efficient cube-wise embedding for hybrid video representation, enabling parallel frame processing, simultaneous multi-frame reconstruction, and resolution flexibility
 
     - title: Head of Event & PR Team
       institution: Google Developer Students Club, HUST, Vietnam
