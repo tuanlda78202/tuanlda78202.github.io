@@ -15,15 +15,17 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I'm Charles 🤗 Interested in Multimodal/Reasoning LLMs and LLM Systems.
+Hi! I'm Charles 🤗 Interested in LLM Systems.
 
-**Industry:** 
+**Industry:**
+
 * Developed my own multimodal Conversational Recommendation System, which is Vietnam's first real-time, end-to-end universal CRS assistant featuring a multi-agent system and multimodal capabilities. This "zero-touch" AI assistant supports multimodal input/output, understands user intent—both expertise-based and causal—and delivers personalized responses, successfully deployed for user interactions.
 
-**Research:** 
+**Research:**
+
 * My graduation thesis focused on Continual Object Detection, presenting an ["Efficient Continual Detection Transformer"](https://www.linkedin.com/feed/update/urn:li:activity:7209885129920368640/) that utilizes pseudo-labeling, knowledge distillation, and LoRA to achieve superior performance with only 3% of trainable parameters on the COCO dataset, effectively addressing Catastrophic Forgetting and optimizing computational efficiency. My past work includes developing Implicit Neural Representations for video tasks - reconstruction, compression, and in-painting; Medical Image Segmentation for MRI, specifically for rectal cancer diagnosis and treatment.
 
-**Community:** 
+**Community:**
 
 * Passionate commitment to sharing knowledge and organizing events in the research and developer community is evident. This dedication has resulted in the successful coordination of several key events, such as AI Day 2022, Google I/O Extended Hanoi 2022/2023/2024, Google DevFest Hanoi 2022/2023, IWD x FFE Hanoi 2023, Google Build with AI 2024.
   
