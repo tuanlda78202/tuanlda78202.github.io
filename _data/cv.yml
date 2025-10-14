@@ -16,12 +16,8 @@
 - title: Publications
   type: list
   contents:
-    - <a Speechless \href{https://arxiv.org/abs/2505.17417}{(Interspeech, 2025)}}
-            {Speech Instruction Training Without Speech for Low Resource Languages
-            }
-    - <a Poseless \href{https://arxiv.org/abs/2503.07111v2}{(CVPR, 2025)}}
-            {Depth-Free Vision-to-Joint Control via Direct Image Mapping with Vision Language Model
-            }
+    - <b>Speechless <a href=https://arxiv.org/abs/2505.17417>(Interspeech (A), 2025)</a>:</b> Speech Instruction Training Without Speech for Low Resource Languages
+    - <b>Poseless <a href=https://arxiv.org/abs/2503.07111v2>(arXiv, 2025)</a>:</b> Depth-Free Vision-to-Joint Control via Direct Image Mapping with Vision Language Model
 
 - title: Experience
   type: time_table
@@ -129,17 +125,17 @@
 - title: Achievements
   type: list
   contents:
-    - <u>Viettel Digital Talent 2024 (Data Science and Artificial Intelligence):</u> Top 1
-    - <u>Excellent Students Contest in Math 2019 (Provincial Merit Competition):</u> Third Prize
-    - <u>Innovation Lab Asia CrowdPitch:</u> Winner
-    - <u>TechYouth (VinUniversity):</u> Best Incubatee
-    - <u>Cyberport (2nd largest incubator in Hong Kong with 5 unicorns):</u> CCMG Grantee
-    - <u>X-Challenge by VCCorp:</u> Top 1
-    - <u>Prometheus in Digital Transformation by European Union (out of 4000 teams):</u> Top 1
-    - <u>Business Challenge 6 by Vietnam National University:</u> Top 1
-    - <u>Youth Impact Entrepreneurs by PNJ (VN30 Index):</u> Top 5
-    - <u>Hult Prize Asia Summit 2022 (out of 1000 teams):</u> Top 6
-    - <u>University Startup World Cup (out of 5000 teams):</u> Top 20
-    - <u>Moonshot Global (out of 3000 teams):</u> Top 30
-    - <u>XPITCH Global (out of 4000 teams):</u> Top 100
+    - <b>Top 1:</b> Viettel Digital Talent 2024 (Data Science and Artificial Intelligence)
+    - <b>Third Prize:</b> Excellent Students Contest in Math 2019 (Provincial Merit Competition)
+    - <b>Winner:</b> Innovation Lab Asia CrowdPitch
+    - <b>Best Incubatee:</b> TechYouth (VinUniversity)
+    - <b>CCMG Grantee:</b> Cyberport (2nd largest incubator in Hong Kong with 5 unicorns)
+    - <b>Top 1:</b> X-Challenge by VCCorp
+    - <b>Top 1:</b> Prometheus in Digital Transformation by European Union (out of 4000 teams)
+    - <b>Top 1:</b> Business Challenge 6 by Vietnam National University
+    - <b>Top 5:</b> Youth Impact Entrepreneurs by PNJ (VN30 Index)
+    - <b>Top 6:</b> Hult Prize Asia Summit 2022 (out of 1000 teams)
+    - <b>Top 20:</b> University Startup World Cup (out of 5000 teams)
+    - <b>Top 30:</b> Moonshot Global (out of 3000 teams)
+    - <b>Top 100:</b> XPITCH Global (out of 4000 teams)
 
