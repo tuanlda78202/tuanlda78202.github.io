@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: LLM Engineer
+subtitle: LLM Engineer | ex Moreh, Menlo Research, Viettel
 
 profile:
   align: right
@@ -15,11 +15,15 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I'm Charles 🤗 Interested in LLM Systems.
+Hi! I'm Charles 👋 Interested in LLM Systems.
 
 **Industry:**
 
-* Developed my own multimodal Conversational Recommendation System, which is Vietnam's first real-time, end-to-end universal CRS assistant featuring a multi-agent system and multimodal capabilities. This "zero-touch" AI assistant supports multimodal input/output, understands user intent—both expertise-based and causal—and delivers personalized responses, successfully deployed for user interactions.
+* Implemented a [**pure HIP C++ of OpenAI’s GPT-OSS from scratch**](https://github.com/tuanlda78202/gpt-oss-amd), optimizing model loading, multi-streaming, multi-GPU communication, CPU-GPU-SRAM memory access, FlashAttention 2, matrix-core GEMM, MoE load balancing, etc. Achieved 30k TPS (20B) and 10k TPS (120B) on a single node with 8× AMD MI250x GPUs.
+
+* Architected an [**end-to-end LLMOps system**](https://github.com/tuanlda78202/leo) for a personal AI assistant, unifying data, feature, training, inference, and observability layers under clean architecture principles. Built offline pipelines for data retrieval, ETL, SFT, and RAG indexing managed by an orchestrator, and designed an agentic RAG-based online system with API integration, MCP support, contextual retrieval, and prompt caching/monitoring.
+
+* Developed a multimodal, multi-agent conversational recommendation system with vision and speech-to-speech interaction; integrated AdaptiveICL, synthetic data generation, and retrieval-ranking pipelines with API communication between application and infrastructure layers. **Achieved Top 1 in Track DSAI at Viettel Digital Talent**.
 
 **Research:**
 
