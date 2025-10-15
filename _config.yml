@@ -5,10 +5,10 @@
 title: Le Duc Anh Tuan # the website title (if blank, full name will be used instead)
 first_name: Le Duc Anh Tuan
 last_name:
-email: tuanlda78202@gmail.com
+email: tuanleducanh78202@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My personal website.
-keywords: tuanlda78202, leducanhtuan, le-duc-anh-tuan, humans-of-hust, tuan-le-duc-anh
+  Hi! I'm Charles.
+keywords: tuanlda78202, tuanleducanh78202, leducanhtuan, le-duc-anh-tuan, tuan-le-duc-anh, llm, llm-system, charles, gpt-oss-amd, nvims, llm-engineer
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: website.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -78,7 +78,6 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
-am_id: tuanlda78202 # your Apple Music ID
 
 contact_note: >
 
@@ -104,7 +103,7 @@ collections:
     permalink: /news/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 20 # leave blank to include all the news in the `_news` folder
+news_limit: 30 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
