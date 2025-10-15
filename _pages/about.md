@@ -19,11 +19,11 @@ Hi! I'm Charles 👋 Interested in LLM Systems.
 
 **Industry:**
 
-* Implemented a [**pure HIP C++ of OpenAI’s GPT-OSS from scratch**](https://github.com/tuanlda78202/gpt-oss-amd), optimizing model loading, multi-streaming, multi-GPU communication, CPU-GPU-SRAM memory access, FlashAttention 2, matrix-core GEMM, MoE load balancing, etc. Achieved 30k TPS (20B) and 10k TPS (120B) on a single node with 8× AMD MI250x GPUs.
+* Implemented a [pure HIP C++ of OpenAI’s GPT-OSS from scratch](https://github.com/tuanlda78202/gpt-oss-amd), optimizing model loading, multi-streaming, multi-GPU communication, CPU-GPU-SRAM memory access, FlashAttention 2, matrix-core GEMM, MoE load balancing, etc. Achieved 30k TPS (20B) and 10k TPS (120B) on a single node with 8× AMD MI250x GPUs.
 
-* Architected an [**end-to-end LLMOps system**](https://github.com/tuanlda78202/leo) for a personal AI assistant, unifying data, feature, training, inference, and observability layers under clean architecture principles. Built offline pipelines for data retrieval, ETL, SFT, and RAG indexing managed by an orchestrator, and designed an agentic RAG-based online system with API integration, MCP support, contextual retrieval, and prompt caching/monitoring.
+* Architected [Leo](https://github.com/tuanlda78202/leo) - an end-to-end LLMOps system for a personal AI assistant, unifying data, feature, training, inference, and observability layers under clean architecture principles. Built offline pipelines for data retrieval, ETL, SFT, and RAG indexing managed by an orchestrator, and designed an agentic RAG-based online system with API integration, MCP support, contextual retrieval, and prompt caching/monitoring.
 
-* Developed a multimodal, multi-agent conversational recommendation system with vision and speech-to-speech interaction; integrated AdaptiveICL, synthetic data generation, and retrieval-ranking pipelines with API communication between application and infrastructure layers. **Achieved Top 1 in Track DSAI at Viettel Digital Talent**.
+* Developed a multimodal, multi-agent conversational recommendation system with vision and speech-to-speech interaction; integrated AdaptiveICL, synthetic data generation, retrieval-ranking pipelines with API communication between application and infrastructure layers and **achieved Top 1 in track DSAI at Viettel Digital Talent**.
 
 **Research:**
 
