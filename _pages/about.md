@@ -15,7 +15,8 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I'm Charles 👋 Interested in LLM Systems.
+
+Hi! I'm Charles; interested in LLM Systems, with experience spanning AI research (Machine Learning, Computer Vision, Speech) to applications (Recommendation Systems, LLMs), and across the stack - from low-level GPU kernel optimization to high-level system design, training to serving.
 
 **Industry:**
 
