@@ -16,11 +16,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Charles; interested in LLM Systems, with experience spanning AI Research (ML, CV, Speech) to Applications (LLMs, Recommendation Systems), and across the stack - from low-level GPU kernel optimization (CUDA, HIP) to high-level LLM system design, training to inferencing/serving.
+Hi, I'm Charles! Interested in LLM Systems, with experience spanning AI Research (ML, CV, Speech) to Applications (LLMs, RecSys), and across the stack - from low-level GPU kernel optimization (CUDA, HIP) to high-level LLM system design, training to serving.
 
 **Industry:**
 
-* Implemented a [pure HIP C++ of OpenAI’s GPT-OSS from scratch on AMD GPUs](https://github.com/tuanlda78202/gpt-oss-amd), optimizing model loading, multi-streaming, multi-GPU communication, CPU-GPU-SRAM memory access, FlashAttention, matrix-core GEMM, MoE load balancing, etc; achieved 30k TPS (20B) and 10k TPS (120B) on a single node with 8× MI250 GPUs.
+* Implemented a [pure HIP C++ of OpenAI’s GPT-OSS from scratch on AMD GPUs](https://github.com/tuanlda78202/gpt-oss-amd), optimizing model loading, multi-streaming, multi-GPU communication, CPU-GPU-SRAM memory access, FlashAttention, matrix-core GEMM, MoE load balancing, etc; achieved 30k TPS (20B), 10k TPS (120B) on a single node with 8× MI250 GPUs and featured on [r/LocalLLaMA.](https://www.reddit.com/r/LocalLLaMA/comments/1o3dfib/gptoss_from_scratch_on_amd_gpus/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 * Architected [Leo](https://github.com/tuanlda78202/leo) - an end-to-end LLMOps system, unifying data, feature, training, inference, and observability layers under clean architecture principles; built offline pipelines for data retrieval, ETL, SFT, and hybrid RAG managed by an orchestrator, and designed an agentic RAG-based online system with API integration, MCP support, contextual retrieval, and prompt caching with monitoring.
 
@@ -34,6 +34,6 @@ Hi! I'm Charles; interested in LLM Systems, with experience spanning AI Research
 
 **Community:**
 
-* Released and maintained open-source projects for developers, including [gpt-oss-amd (150 ⭐️)](https://github.com/tuanlda78202/gpt-oss-amd), [nvims (100 ⭐️)](https://github.com/tuanlda78202/nvims), and [leo](https://github.com/tuanlda78202/leo); contributed to leading projects like [Ichigo (2.4k ⭐️)](https://github.com/menloresearch/ichigo) and [WhisperSpeech (4.5k ⭐️)](https://github.com/WhisperSpeech/WhisperSpeech).
+* Released and maintained open-source projects for developers, including [gpt-oss-amd (150 ⭐️)](https://github.com/tuanlda78202/gpt-oss-amd), [nvims (100 ⭐️)](https://github.com/tuanlda78202/nvims), [leo](https://github.com/tuanlda78202/leo), [gemino](https://github.com/tuanlda78202/geminio); contributed to leading projects like [Ichigo (2.4k ⭐️)](https://github.com/menloresearch/ichigo) and [WhisperSpeech (4.5k ⭐️)](https://github.com/WhisperSpeech/WhisperSpeech).
 
-* Organized multiple technical events for the developer community, such as VinAI Day, Google I/O Extended, Google DevFest, International Women’s Day x Flutter Forward Extended, and Google Build with AI; [spoke at Google DevFest 2022](https://www.facebook.com/GDGhanoi/photos/a.295913770557546/2473122272836674) on “Detecting Cheating in Examinations”; [certified by Google’s Global Headquarters](https://drive.google.com/file/d/1wRyXDH3vbakH1dkueh88lQVuRn85nwjU/view?usp=sharing).
+* Organized multiple technical events for the developer community, such as VinAI Day, Google I/O Extended, Google DevFest, International Women’s Day x Flutter Forward Extended, and Google Build with AI; [spoke at Google DevFest 2022](https://www.facebook.com/GDGhanoi/photos/a.295913770557546/2473122272836674) on “Detecting Cheating in Examinations” (highlighted on [VTV24](https://www.youtube.com/watch?v=CBjD3bbMy6M)); [certified by Google’s Global Headquarters](https://drive.google.com/file/d/1wRyXDH3vbakH1dkueh88lQVuRn85nwjU/view?usp=sharing).
